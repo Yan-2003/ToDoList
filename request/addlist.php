@@ -14,7 +14,11 @@ if(isset($_POST['delete'])){
 
 
 ?>
-
+<?php if($db == NULL):?>
+    <div class="nolist">
+        <p>No added list.</p>
+    </div>
+<?php endif?>
 
 <?php if($db != NULL):?>
 <?php foreach($db as $list):?>
