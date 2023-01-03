@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    background: -webkit-linear-gradient(45deg, black 10%, gray 90%);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main--box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#text{
+    resize: none;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+#btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    transition: 280ms;
+}
+
+#btn:hover{
+    transition: 280ms;
+    background-color: rgb(93, 124, 30);
+}
+
+
+
+.container--content{
+    position: relative;
+    top: 15vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list{
+    margin: 0 auto;
+    background-color: rgb(218, 218, 218);
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    cursor: pointer;
+    border:none;
+    outline:none;
+    background:none;
+    transition: 280ms;
+}
+
+.icons:hover{
+    background-color: rgba(0, 0, 0, 0.188);
+}
+.text{
+    padding: 10px;
+    margin: 0 1rem;
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.text.check{
+    text-decoration: line-through;
+}
+.list.check{
+    transition: 280ms;
+    background-color: yellowgreen;
+}
+
+.list.check:hover{
+    background-color: rgb(90, 121, 30);
+}
